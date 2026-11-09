@@ -4,7 +4,7 @@ import unittest
 
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 
-from app import add_numbers, subtract_numbers
+from app import add_numbers, subtract_numbers, multiply_numbers
 
 
 class TestApp(unittest.TestCase):
@@ -16,7 +16,6 @@ class TestApp(unittest.TestCase):
 
     def test_multiply_numbers(self):
         self.assertEqual(multiply_numbers(4, 6), 24)
-
 
 if __name__ == "__main__":
     unittest.main()
