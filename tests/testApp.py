@@ -9,7 +9,7 @@ from app import add_numbers, subtract_numbers, multiply_numbers
 
 class TestApp(unittest.TestCase):
     def test_add_numbers(self):
-        self.assertEqual(add_numbers(2, 3), 5)
+        self.assertEqual(add_numbers(2, 3), 6)
 
     def test_subtract_numbers(self):
         self.assertEqual(subtract_numbers(5, 2), 3)
