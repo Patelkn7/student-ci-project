@@ -12,3 +12,4 @@ A small Python calculator app used to demonstrate Continuous Integration with Je
 
 ## CI
 Jenkins job `Student-CI-Project` pulls this repo, runs the app and tests, and fails the build if any test fails. A GitHub webhook (via an ngrok HTTPS tunnel) triggers a build on every push.
+
