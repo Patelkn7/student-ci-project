@@ -14,6 +14,9 @@ class TestApp(unittest.TestCase):
     def test_subtract_numbers(self):
         self.assertEqual(subtract_numbers(5, 2), 3)
 
+    def test_multiply_numbers(self):
+        self.assertEqual(multiply_numbers(4, 6), 24)
+
 
 if __name__ == "__main__":
     unittest.main()
