@@ -1,6 +1,6 @@
 # Student-CI-Project
 
-A small Python calculator app used to demonstrate Continuous Integration with Jenkins and GitHub webhooks (CMSC 426, In-Class Activity 3).
+A small Python calculator app used to demonstrate Continuous Integration with Jenkins and GitHub webhooks
 
 ## Structure
 - `app.py` - application code
